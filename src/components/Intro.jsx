@@ -22,7 +22,7 @@ export default function Intro() {
 					In my free time I like to travel, cook and eat delicious food, and lift heavy things at the gym.
         </p>
         <button className="animate-bounce w-12 mt-8 mb-16">
-          <Link to="Projects" smooth={true} duration={500}>
+          <Link to="Projects" smooth={true} duration={500} offset={-80}>
             <img src={Chevron} alt="" />
           </Link>
         </button>

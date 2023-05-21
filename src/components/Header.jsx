@@ -3,7 +3,7 @@ import Logo from "../assets/logo.svg"
 
 export default function Header() {
 	return (
-		<header className="flex items-center justify-between px-4 py-2 drop-shadow-sm">
+		<header className="flex items-center justify-between px-4 py-2 drop-shadow-sm opacity-0">
   <div className="flex items-center">
     <img
       src={Logo}
