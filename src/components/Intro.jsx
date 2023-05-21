@@ -1,4 +1,7 @@
+import { gsap } from "gsap";
+import { Link } from "react-scroll";
 import Me from "../assets/me.jpeg"
+import Chevron from "../assets/chevron.svg"
 
 export default function Intro() {
    return (
@@ -8,10 +11,14 @@ export default function Intro() {
 				<p className="text-base md:text-xl mb-3 font-medium">Fullstack Web Developer</p>
         <p className="text-sm max-w-xl mb-6 font-bold">
 					Hello! As you might have guessed, my name is Anna. Welcome to my portfolio website!
-					I'm a 25 year old developer from Uppsala, and currently I'm in Stockholm studying at the Frontend Developer program at Hyper Island.
+					I&apos;m a 25 year old developer from Uppsala, and currently I&apos;m in Stockholm studying at the Frontend Developer program at Hyper Island.
 					In my free time I like to travel, cook and eat delicious food, and lift heavy things at the gym.
         </p>
-					
+        <button className="animate-bounce w-16 mt-8 ">
+          <Link to="Projects" smooth={true} duration={500}>
+            <img src={Chevron} alt="" />
+          </Link>
+        </button>
       </div>
    )
 }
