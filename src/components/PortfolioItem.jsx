@@ -1,6 +1,6 @@
 export default function PortfolioItem({title, imgUrl, stack, codeLink, liveLink}) {
 	return (
-		<div className="border-2 border-stone-900 rounded-md overflow-hidden">
+		<div className="transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 shadow-md hover:shadow-xl duration-300 border-2 border-stone-900 rounded-md overflow-hidden">
 			<a href={codeLink}>
 				<img src={imgUrl} alt="" className="w-full h-36 md:h-48 object-cover cursor-pointer"/>
 			</a>

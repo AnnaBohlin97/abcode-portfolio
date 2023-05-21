@@ -8,7 +8,7 @@ export default function Footer() {
 								href="https://www.linkedin.com/in/anna-bohlin/"
 								target="_blank"
 								rel="noreferrer"
-								className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
+								className="transition ease-in-out delay-150 duration-300 bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full hover:bg-teal-800">
 								<svg
 								className="w-5 h-5 fill-current"
 								role="img"
@@ -24,7 +24,7 @@ export default function Footer() {
 								href="https://github.com/AnnaBohlin97"
 								target="_blank"
 								rel="noreferrer"
-								className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
+								className="transition ease-in-out delay-150 duration-300 bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full hover:bg-teal-800">
 								<svg
 								xmlns="http://www.w3.org/2000/svg"
 								xmlnsXlink="http://www.w3.org/1999/xlink"
