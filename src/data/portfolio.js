@@ -1,25 +1,25 @@
-// import {SiReact, SiJavascript, SiTailwindcss, SiNodedotjs, SiExpress, SiSequelize, SiPostgresql, SiGit, SiGithub, SiCss3} from "react-icons/si"
-import FinDash from "../assets/findash.png"
+import Todo from "../assets/todo.png"
 import Handledning from "../assets/handledning.png"
+import FinDash from "../assets/findash.png"
 
 export default [
 	{
 		title: "Todo app",
-		imgUrl: "",
+		imgUrl: Todo,
 		stack: ["Node.js", "Express.js", "Postgresql", "Sequelize"],
 		codeLink: "https://github.com/FED24-Data-Interaction/todo-list/settings",
 		liveLink: ""
 	},
 	{
 		title: "Handledning.se",
-		imgUrl: {Handledning},
+		imgUrl: Handledning,
 		stack: ["React.js", "CSS"],
 		codeLink: "https://github.com/ave-se/react-app",
 		liveLink: "https://ubiquitous-gaufre-0e6db5.netlify.app/about"
 	},
 	{
 		title: "Financial Dashboard",
-		imgUrl: {FinDash},
+		imgUrl: FinDash,
 		stack: ["React.js", "CSS"],
 		codeLink: "https://github.com/AnnaBohlin97/financial-dashboard",
 		liveLink: "https://cheery-brigadeiros-8234f7.netlify.app/"
