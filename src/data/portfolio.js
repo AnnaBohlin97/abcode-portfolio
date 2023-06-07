@@ -10,7 +10,7 @@ export default [
     codeLink: "https://github.com/FED24-Data-Interaction/todo-list",
     liveLink: "",
     description:
-      "In this fullstack project I used wrote a RESTful API used for handling CRUD operations, connected to a PostgreSQL server that hosted my database, and wrote the frontend code in Vanilla Javascript.",
+      "In this fullstack project I wrote a RESTful API used for handling CRUD operations, connected it to a PostgreSQL server that hosted my database, and wrote the frontend code in Vanilla Javascript.",
   },
   {
     title: "Handledning.se",
